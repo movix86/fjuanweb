@@ -12,18 +12,12 @@ const Navweb = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Description</Nav.Link>
-            <Nav.Link href="#pricing">Projects</Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <Nav.Link href="#features">Work</Nav.Link>
+            <Nav.Link href="#pricing">About</Nav.Link>
+            <NavDropdown title="My Sites" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="https://www.linkedin.com/in/juan-guillermo-franco-carrillo-aa0678119/" target="_blank">Linkedin</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+              <NavDropdown.Item href="https://github.com/movix86" target="_blank">Github</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>

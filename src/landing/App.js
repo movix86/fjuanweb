@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
+
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Buttons from '../components/Buttons';
@@ -33,10 +33,8 @@ const App = () => {
         return (
             <div className="App">
                 <Row>
-                    <Col xs={12} md={12} className="head">
-                        <Navweb />
-                    </Col>
                     <Col xs={12} md={12} className='body'>
+                        <Navweb />
                         <Buttons />
                     </Col>
                     <Col xs={12} md={8} className="footer">sm=12</Col>
