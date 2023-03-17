@@ -20,26 +20,50 @@ body{
     text-align: center;
     height:100vh;
 }
+.footer{
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
 .skillStart{
     padding: 50px;
-}
-.skills{
-    /*Font of button skills*/
-    text-align: center;
-    font-size: 1vw;
-    padding-top: 100px;
-    text-align: justify;
-    text-justify: inter-word;
 }
 .skills p{
     /*Font of button skills*/
     width: 100%;
 }
-.image-skills img{
-     /*Image of button skills*/
-    position: relative;
-    top: 10px;
-    width: 60%;
-    height: 50vh;
-}
-  
+
+
+@media only screen and (max-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .skills{
+        /*Font of button skills*/
+        font-size: 5vw;
+        text-align: justify;
+    }
+    .image-skills img{
+        /*Image of button skills*/
+        width: 100%;
+   }
+
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .skills{
+        /*Font of button skills*/
+        text-align: center;
+        font-size: 1vw;
+        padding-top: 25vh;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .image-skills img{
+        /*Image of button skills*/
+        width: 100vh;
+
+   }
+
+  }

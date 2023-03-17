@@ -37,7 +37,7 @@ const App = () => {
                         <Navweb />
                         <Buttons />
                     </Col>
-                    <Col xs={12} md={8} className="footer">sm=12</Col>
+                    <Col xs={12} md={12} className="footer">sm=12</Col>
                 </Row>
             </div>
         )

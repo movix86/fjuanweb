@@ -14,16 +14,16 @@ const Buttons = () => {
 
   const  [boxState, usetBoxState] = useState("");
 
-  if(boxState=="more"){
+  if(boxState=="skills"){
     return (
       <>
           <Row>
             <Col sm={12}>
               <ButtonGroup aria-label="Basic example">
-                <Button variant="secondary" title="Habilidades" onClick={()=>{usetBoxState("more")}}>Skills</Button>
-                <Button variant="secondary">MVC</Button>
-                <Button variant="secondary">Styles</Button>
-                <Button variant="secondary">Python</Button>
+              <Button variant="secondary" title="Habilidades" onClick={()=>{usetBoxState("skills")}}>Skills</Button>
+              <Button variant="secondary" onClick={()=>{alert("I know Styles Model MVC")}}>MVC</Button>
+              <Button variant="secondary" onClick={()=>{alert("I know Styles CSS")}}>Styles</Button>
+              <Button variant="secondary" onClick={()=>{alert("I am learning Python in this 2023")}}>Python</Button>
               </ButtonGroup>
             </Col>
           </Row>
@@ -34,7 +34,7 @@ const Buttons = () => {
               </p>
             </Col>
             <Col sm={6} className='image-skills'>
-              <img src='https://cdn.pixabay.com/photo/2019/04/04/08/01/icon-4102192_1280.png' width="500" height="600" />
+              <img src='https://cdn.pixabay.com/photo/2019/04/04/08/01/icon-4102192_1280.png' />
             </Col>
           </Row>
       </>
@@ -45,7 +45,7 @@ const Buttons = () => {
         <Row>
           <Col sm={12}>
             <ButtonGroup aria-label="Basic example">
-              <Button variant="secondary" title="Habilidades" onClick={()=>{usetBoxState("more")}}>Skills</Button>
+              <Button variant="secondary" title="Habilidades" onClick={()=>{usetBoxState("skills")}}>Skills</Button>
               <Button variant="secondary" onClick={()=>{alert("I know Styles Model MVC")}}>MVC</Button>
               <Button variant="secondary" onClick={()=>{alert("I know Styles CSS")}}>Styles</Button>
               <Button variant="secondary" onClick={()=>{alert("I am learning Python in this 2023")}}>Python</Button>
